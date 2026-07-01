@@ -1,36 +1,39 @@
-#  AbhiXHacking ASM & Smali Patcher
+# 🚀 AbhiXHacking ASM & Smali Patcher
 
-A powerful Python-based toolkit for ASM & Smali patching of Flutter APKs. It automates common patching tasks, making the workflow faster and easier for reverse engineering and application analysis.
+A powerful Python-based toolkit for ASM & Smali patching of Flutter APKs. It simplifies the patching process by automating common tasks, making reverse engineering and application analysis faster and more efficient.
 
 > **Version:** 1.0.0
+> **Author:** AbhiXHacking
+> **License:** MIT
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-* 🔹 ASM Pattern Patching
-* 🔹 Smali Patching
-* 🔹 PP Patch Support
-* 🔹 AndroidManifest Patching
-* 🔹 Flutter APK Support
-* 🔹 Split APK Support
-* 🔹 Automatic File Processing
-* 🔹 Termux & Linux Compatible
-* 🔹 Easy Command-Line Interface
-* 🔹 Open Source
+* ASM Pattern Patching
+* Smali Patching
+* PP Patch Support
+* AndroidManifest Patching
+* Flutter APK Support
+* Split APK Support
+* Automatic File Processing
+* Termux Compatible
+* Linux Compatible
+* Easy Command-Line Interface
+* Open Source
 
 ---
 
-## 📋 Requirements
+# 📋 Requirements
 
 * Python 3.10 or newer
 * Git
 * Java (if required by your workflow)
-* Termux or Linux
+* Linux or Termux
 
 ---
 
-## 📥 Installation
+# 📥 Installation
 
 Clone the repository:
 
@@ -44,7 +47,7 @@ Go to the project directory:
 cd AbhiXHacking-ASM-Smali-Patcher
 ```
 
-Install the required packages:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -52,39 +55,39 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+# ▶️ Usage
 
 Run the tool:
 
 ```bash
-python patcher.py
+python abhixpatch.py
 ```
 
 or
 
 ```bash
-python3 patcher.py
+python3 abhixpatch.py
 ```
 
-Follow the on-screen instructions.
+Follow the on-screen instructions to complete the patching process.
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 AbhiXHacking-ASM-Smali-Patcher/
 │
-├── patcher.py
-├── requirements.txt
+├── abhixpatch.py
 ├── README.md
+├── requirements.txt
 ├── LICENSE
 └── .gitignore
 ```
 
 ---
 
-## 🖥️ Supported Platforms
+# 🖥️ Supported Platforms
 
 * Linux
 * Termux
@@ -92,50 +95,65 @@ AbhiXHacking-ASM-Smali-Patcher/
 
 ---
 
-## ⚠️ Disclaimer
+# 📌 Roadmap
 
-This project is intended for educational purposes and authorized security research only.
+Planned improvements:
 
-Only analyze or modify software that you own or have explicit permission to test. The author is not responsible for any misuse of this project.
+* Better patch management
+* Additional Flutter patch support
+* Improved error handling
+* Faster processing
+* More automation
+* Better user interface
 
 ---
 
-## 🤝 Contributing
+# 🤝 Contributing
 
-Contributions, bug reports, and feature suggestions are welcome.
-
-If you have an idea to improve this project:
+Contributions are welcome!
 
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes.
-4. Submit a Pull Request.
+4. Commit your changes.
+5. Submit a Pull Request.
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
 If you find this project useful:
 
 * ⭐ Star this repository
-* 🍴 Fork the project
+* 🍴 Fork the repository
 * 🐞 Report bugs
 * 💡 Suggest new features
 
-Your support helps improve the project.
+Your support helps improve this project.
 
 ---
 
-## 📄 License
+# ⚠️ Disclaimer
 
-This project is licensed under the MIT License.
+This project is intended for educational purposes and authorized security research only.
+
+Only analyze or modify software that you own or have explicit permission to test. The author is not responsible for any misuse or illegal use of this software.
 
 ---
 
-## 👨‍💻 Author
+# 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+---
+
+# 👨‍💻 Author
 
 **AbhiXHacking**
 
-GitHub: https://github.com/abhixhacking
+* GitHub: https://github.com/abhixhacking
+* YouTube: https://youtube.com/@abhixhacking
 
-YouTube: https://youtube.com/@abhixhacking
+---
+
+## 🌟 If this project helps you, don't forget to leave a ⭐ on the repository!
