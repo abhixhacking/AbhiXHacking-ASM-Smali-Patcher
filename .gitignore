@@ -216,3 +216,53 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===============================
+# AbhiXHacking ASM & Smali Patcher
+# ===============================
+
+# Build outputs
+output/
+builds/
+release/
+
+# Decompiled APKs
+decompiled/
+apktool/
+
+# Extracted Flutter files
+blutter_output/
+flutter_dump/
+
+# Generated ASM files
+asm/
+asm_output/
+
+# Generated Smali files
+smali_output/
+
+# Temporary patch files
+temp/
+tmp/
+
+# Logs
+logs/
+*.log
+
+# APK files
+*.apk
+*.apks
+*.xapk
+
+# Keystore files
+*.jks
+*.keystore
+
+# VS Code
+.vscode/
+
+# IntelliJ / Android Studio
+.idea/
+
+# macOS
+.DS_Store
